@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body a {
+    text-decoration: none;
+}
+
+
+
+.facebook {
+    padding: 80px 0 120px 0;
+    background-color: #f0f2f5;
+}
+
+.facebook .row {
+    margin: 0 auto;
+    padding: 20px 0;
+    max-width: 980px;
+    align-items: center;
+}
+
+
+
+.facebook .row .col-6 img {
+    height: 106px;
+    margin: -28px;
+}
+
+.facebook .row .col-6 h2 {
+    font-family: initial;
+    margin-top: 15px;
+}
+
+.facebook .row .col-6 .card {
+    padding: 20px;
+    align-items: center;
+    gap: 15px;
+    max-width: 390px;
+    border-radius: 10px;
+}
+
+
+
+.facebook .row .col-6 .card .card-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.facebook .row .col-6 .card .card-form input {
+    padding: 5px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #dddfe2;
+    border-radius: 5px;
+}
+
+.facebook .row .col-6 .card .card-btn {
+    width: 100%;
+    margin: 15px 0;
+}
+
+.facebook .row .col-6 .card .card-btn button {
+    background-color: #0866ff;
+    padding: 10px;
+    width: 100%;
+    color: #ffff;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.facebook .row .col-6 .card .card-a1 a {
+    font-size: 14px;
+    font-weight: 500;
+    color: #0866ff;
+}
+
+.facebook .row .col-6 .card .card-a1 a:hover {
+    text-decoration: underline;
+}
+
+.facebook .row .col-6 .card .border{
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    align-items: center;
+    width: 100%;
+}
+
+.facebook .row .col-6 .card .card-a2 {
+    margin: 15px 0;
+}
+
+
+.facebook .row .col-6 .card .card-a2 a {
+    background-color: #42b72a;
+    font-size: 17px;
+    font-weight: 700;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 6px;
+    margin: 15px 0;
+}
+
+.facebook .row .col-6 .card-page{
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.facebook .row .col-6 .card-page a{
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.footer {
+    padding: 20px 0;
+    margin: 0 auto;
+    max-width: 980px;
+}
+
+.footer .container .links {
+    display: inline;
+}
+
+
+.footer .container .links ul{
+    padding: 0;
+}
+
+.footer .container .links li{
+    display: inline;
+}
+
+.footer .container .links li:hover{
+    text-decoration: underline;
+    color: #8a8d91;
+}
+
+.footer .container .links a{
+    color: #8a8d91;
+    font-size: 15px;
+    font-family: initial;
+}
+
+
+.footer .container .copyright span{
+    color: #8a8d91;
+    align-items: center;
+}
